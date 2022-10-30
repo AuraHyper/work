@@ -1,5 +1,5 @@
 <?php
-class Student extends \College\Entities\Human
+class Student extends \Entities\Human
 {
     private bool $expelled=false;
     private ?DateTime $expDate=null;
